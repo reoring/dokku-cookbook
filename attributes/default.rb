@@ -4,10 +4,10 @@
 #
 # Copyright (c) 2015 Nick Charlton, MIT licensed.
 
-default["dokku"]["package"]["dokku"]["version"] = "0.5.6"
-default["dokku"]["package"]["herokuish"]["version"] = "0.3.12"
-default["dokku"]["package"]["sshcommand"]["version"] = "0.4.0"
-default["dokku"]["package"]["plugn"]["version"] = "0.2.1"
+default["dokku"]["package"]["dokku"]["version"] = "0.8.2"
+default["dokku"]["package"]["herokuish"]["version"] = "0.3.27"
+default["dokku"]["package"]["sshcommand"]["version"] = "0.6.0"
+default["dokku"]["package"]["plugn"]["version"] = "0.3.0"
 
 default["dokku"]["domain"] = nil
 default["dokku"]["ssh_keys"] = []
@@ -21,4 +21,4 @@ default["dokku"]["nginx"]["ssl_protocols"] = "TLSv1 TLSv1.1 TLSv1.2"
 default["dokku"]["nginx"]["ssl_ciphers"] = "EECDH+AESGCM:EDH+AESGCM:" \
   "AES256+EECDH:AES256+EDH"
 default["dokku"]["nginx"]["dhparam_file"] = "/etc/ssl/certs/dhparam.pem"
-default["dokku"]["nginx"]["dhparam_key_length"] = 4096
+default["dokku"]["nginx"]["dhparam_key_length"] = 2048
